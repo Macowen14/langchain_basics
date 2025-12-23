@@ -2,7 +2,7 @@ from typing import List, Literal
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser, StrOutputParser
-from langchain_core.runnables import RunnableLambda, RunnablePassthrough
+from langchain_core.runnables import RunnableLambda
 from pydantic import BaseModel, Field
 import textwrap
 
@@ -68,13 +68,15 @@ def routing_logic(input_dict):
     else:
         return persuade_prompt | model | final_parser
 
-# --- 6. ASSEMBLE THE FINAL CHAIN ---
 
+# --- 6. ASSEMBLE THE FINAL CHAIN ---
 # The router chain
 router_chain = router_prompt | model | router_parser
 
 # The full execution flow
-# We use RunnableLambda to 'wrap' our python logic function
+# We use RunnableLambda to 'wrap' our python logic 
+# Runnablelambda function is a dynamic chaining so when a chian is returned "edu_prompt chain ..." langchain automatically passes the topic in the input_dic to the chains
+# RunnablePassthorugh is used in static chains to save the "topic ..." while the model is busy doing the other things
 full_chain = RunnableLambda(routing_logic)
 
 # --- 7. RUN THE SYSTEM ---

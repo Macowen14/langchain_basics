@@ -31,10 +31,17 @@ prompt_1 = ChatPromptTemplate.from_messages([
 ]).partial(format_instructions=parser_1.get_format_instructions())
 
 # 5. Define Prompt 2: Refinement
-# Notice we pass the 'original_research' as a variable
 prompt_2 = ChatPromptTemplate.from_messages([
-    ("system", "You are a senior editor. Refine the following research for clarity and impact.\n{format_instructions}"),
-    ("human", "Original Research: {original_research}\n\nPlease improve the summary and provide a critique.")
+    ("system", "You are a senior editor specializing in {topic}.\n{format_instructions}"),
+    ("human", """
+    The user wanted research on: {topic}
+    
+    Here is the draft produced by the junior assistant:
+    {original_research}
+    
+    Please refine this. Ensure the title is punchy and the summary accurately 
+    reflects the core principles of {topic}. Provide a critique of what was missing.
+    """)
 ]).partial(format_instructions=parser_2.get_format_instructions())
 
 # 6. Build the Sequential Chain
