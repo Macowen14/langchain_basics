@@ -39,7 +39,6 @@ docs = text_splitter.split_documents(documents)
 # --------------------------------------------------
 # 4. Create embeddings and vector store
 # --------------------------------------------------
-# Ensure you have pulled 'mxbai-embed-large' in Ollama
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
 vector_store = FAISS.from_documents(docs, embeddings)
 

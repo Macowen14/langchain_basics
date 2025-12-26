@@ -1,6 +1,4 @@
 import os
-import sys
-
 # --- 1. SETUP & IMPORTS ---
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -37,7 +35,6 @@ def main():
     vectorstore = Chroma.from_documents(
         documents=splits,
         embedding=OllamaEmbeddings(model="mxbai-embed-large"),
-        # We save to a different folder to avoid mixing with the previous test
         persist_directory="./chroma_db_expanded"
     )
     retriever = vectorstore.as_retriever(search_kwargs={"k": 2}) # Retrieve top 2 matches
