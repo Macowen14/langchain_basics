@@ -1,0 +1,47 @@
+
+    === CLINICAL NOTES DATABASE ===
+
+    [RECORD ID: 001]
+    Patient Name: John Doe
+    Date: 2025-10-24
+    Age: 45
+    Condition: Hypertension
+    Notes: BP 150/95. Reports headaches. Prescribed Lisinopril 10mg. 
+     advised low sodium diet.
+
+    [RECORD ID: 002]
+    Patient Name: Jane Smith
+    Date: 2025-10-25
+    Age: 62
+    Condition: Type 2 Diabetes
+    Notes: A1C dropped to 7.1. Reports numbness in toes (Neuropathy). 
+    Current meds: Metformin 500mg. Referred to Podiatrist.
+
+    [RECORD ID: 003]
+    Patient Name: Michael Kamau
+    Date: 2025-11-02
+    Age: 29
+    Condition: Malaria (P. falciparum)
+    Notes: Presented with high fever (39.5C), chills, and joint pain. 
+    Rapid Diagnostic Test (RDT) positive. 
+    Prescribed Coartem dosage for 3 days. Advised bed rest and hydration.
+
+    [RECORD ID: 004]
+    Patient Name: Sarah Omondi
+    Date: 2025-11-05
+    Age: 8
+    Condition: Asthma Exacerbation
+    Notes: Wheezing audible on auscultation. SPO2 94% on room air.
+    Mother reports dust trigger at school.
+    Treatment: Nebulized Salbutamol given in ER. 
+    Discharged with Ventolin inhaler and Prednisolone syrup for 5 days.
+
+    [RECORD ID: 005]
+    Patient Name: David Banor
+    Date: 2025-11-10
+    Age: 35
+    Condition: Left Distal Radius Fracture (Wrist)
+    Notes: Patient fell off a bicycle. X-ray confirms hairline fracture.
+    Cast applied. Prescribed Ibuprofen 400mg for pain.
+    Review in 4 weeks for cast removal.
+    

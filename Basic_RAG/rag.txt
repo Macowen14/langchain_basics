@@ -1,0 +1,175 @@
+====================================================================
+ACME CORPORATION – INTERNAL KNOWLEDGE BASE
+====================================================================
+
+Last Updated: 2024-11-15
+Maintained By: Knowledge Management Team
+Audience: Employees, Contractors, and AI Systems
+
+--------------------------------------------------------------------
+SECTION 1: COMPANY OVERVIEW
+--------------------------------------------------------------------
+
+ACME Corporation is a mid-sized technology company founded in 2012.
+The company specializes in cloud-based analytics platforms, data
+engineering services, and artificial intelligence solutions.
+
+Headquarters:
+- City: Austin
+- State: Texas
+- Country: United States
+
+Other Office Locations:
+- Berlin, Germany
+- Toronto, Canada
+- Bangalore, India
+
+As of 2024, ACME Corporation employs approximately 850 people worldwide.
+
+The company’s mission is:
+"To enable organizations to make better decisions through trustworthy
+data, scalable infrastructure, and responsible artificial intelligence."
+
+--------------------------------------------------------------------
+SECTION 2: PRODUCTS AND SERVICES
+--------------------------------------------------------------------
+
+ACME Corporation offers the following primary products:
+
+1. DataForge
+   - A cloud-native data pipeline orchestration platform.
+   - Supports batch and streaming data workloads.
+   - Common customers include financial institutions and e-commerce firms.
+
+2. InsightIQ
+   - A business intelligence and analytics dashboard tool.
+   - Allows users to build custom reports using SQL or a visual interface.
+   - Integrates with Snowflake, BigQuery, and Redshift.
+
+3. AtlasAI
+   - An AI platform focused on retrieval-augmented generation (RAG).
+   - Provides vector storage, document ingestion, and LLM integration.
+   - Common use cases include chatbots, internal search, and document Q&A.
+
+Professional Services:
+- Data architecture consulting
+- Cloud migration
+- AI model evaluation and deployment
+
+--------------------------------------------------------------------
+SECTION 3: EMPLOYEE POLICIES
+--------------------------------------------------------------------
+
+Work Hours:
+- Standard working hours are from 9:00 AM to 5:00 PM local time.
+- Flexible schedules may be approved by managers.
+
+Remote Work Policy:
+- Employees may work remotely up to three days per week.
+- Fully remote roles must be approved by Human Resources.
+
+Paid Time Off (PTO):
+- Full-time employees receive 20 days of PTO per year.
+- PTO does not roll over to the next calendar year.
+
+Security Policy:
+- All employees must use multi-factor authentication.
+- Passwords must be at least 12 characters long.
+- Sensitive data must not be stored on personal devices.
+
+--------------------------------------------------------------------
+SECTION 4: TECHNICAL DOCUMENTATION – RAG OVERVIEW
+--------------------------------------------------------------------
+
+Retrieval-Augmented Generation (RAG) is an architecture that combines
+information retrieval with large language models.
+
+A typical RAG pipeline consists of:
+1. Document ingestion
+2. Text chunking
+3. Vector embedding generation
+4. Similarity search
+5. Context injection into an LLM prompt
+
+Advantages of RAG:
+- Reduces hallucinations
+- Improves factual accuracy
+- Enables use of proprietary data
+
+Common vector databases include:
+- FAISS
+- Pinecone
+- Weaviate
+- Chroma
+
+Embedding models commonly used:
+- OpenAI text-embedding models
+- SentenceTransformers
+- Cohere embeddings
+
+--------------------------------------------------------------------
+SECTION 5: CUSTOMER SUPPORT FAQ
+--------------------------------------------------------------------
+
+Q: How do I reset my password?
+A: Visit the account settings page and click "Reset Password".
+   You will receive an email with further instructions.
+
+Q: Does DataForge support real-time streaming?
+A: Yes, DataForge supports real-time streaming using Kafka and Kinesis.
+
+Q: What is the uptime SLA?
+A: ACME Corporation provides a 99.9% uptime SLA for enterprise customers.
+
+Q: Where is customer data stored?
+A: Customer data is stored in region-specific cloud environments,
+   depending on customer preference and regulatory requirements.
+
+--------------------------------------------------------------------
+SECTION 6: INCIDENT REPORT EXAMPLE
+--------------------------------------------------------------------
+
+Incident ID: INC-2023-0917
+Date: September 17, 2023
+Severity: High
+
+Description:
+A service outage occurred in the US-East region affecting InsightIQ users.
+Dashboards failed to load due to a misconfigured database connection pool.
+
+Resolution:
+The configuration was corrected, and services were restored within
+45 minutes.
+
+Preventive Action:
+Additional monitoring alerts were added to detect similar issues earlier.
+
+--------------------------------------------------------------------
+SECTION 7: GLOSSARY
+--------------------------------------------------------------------
+
+RAG:
+Retrieval-Augmented Generation, a method that augments LLM responses
+with retrieved external context.
+
+LLM:
+Large Language Model, such as GPT-style transformer models.
+
+Vector Embedding:
+A numerical representation of text used for similarity search.
+
+Chunking:
+The process of splitting large documents into smaller text segments
+for embedding and retrieval.
+
+--------------------------------------------------------------------
+SECTION 8: MISCELLANEOUS NOTES
+--------------------------------------------------------------------
+
+- All employees must complete security training annually.
+- Product documentation is reviewed quarterly.
+- AI systems must comply with internal ethical AI guidelines.
+- External audits are conducted once per year.
+
+End of Document
+====================================================================
